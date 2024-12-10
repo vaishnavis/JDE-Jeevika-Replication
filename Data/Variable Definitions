@@ -1,0 +1,28 @@
+dist_code - District ID
+block_code - Block ID
+panch_code - Panchayat ID
+vill_code  - Village ID
+time - 1 for endline, 0 for baseline
+status - treatment status, 1 for treated, 0 for untreated
+srl - HH ID
+tar_group - 1 if HH belongs to Scheduled Castes or Scheduled Tribes, 0 otherwise
+Bas_SHG_Part - 1 if the HH has any member in a self-help group
+any_shg_loan2  - 1 if the household borrowed any loan from a self-help group in the preceeding two years
+any_informal_loan2 - 1 if the household borrowed any loan from an informal lender in the preceeding two years
+any_loan2 - 1 if the household borrowed any loan from any source in the preceeding two years
+real_tot_shg_debt - Real total outstanding debt from self-help groups
+real_tot_informal_debt - Real total outstanding debt from informal lenders
+real_tot_out_debt - Real total outstanding debt from any source
+int_rate - Household average interest rate
+hhinformal_rate - Household average informal interest rate
+wt_inf_rate1 - Household weighted average informal intterest rate, weight by loan size.
+ecstat - Filmer-Prithet Index measuring ownsertship of consumption assets. The index is the first principal component from a PCA analysis of all consumption assets.
+ecstat2 - Filmer-Prithet Index measuring ownsertship of productive assets. The index is the first principal component from a PCA analysis of all productive assets.
+ecstat3 - Filmer-Prithet Index measuring ownsertship of Housing. The index is the first principal component from a PCA analysis of housing features.
+entitle - Takes a value of 1 if the household had access to any entitlements (possessing a job card for NREGS, a ration card, or benefitted from the Indira AWas Yojana)
+real_tot_cons_pa - Real total household consumption per adult equivalent (in 2011 rupees)
+women_work_prop - Proportion of adult women in HH who work
+women_decision - Takes a value of 1 if the respondant woman has the most say in any household decisions
+CA - Propensity for Collective Action. Takes a value of 1 if the respondent woman will ask community members to intervene/gather community members to intervene/intervene themselves in any of a list of issues (issues with obtaining ration, a man in their tola was beating his wife, liquor is a problem for women in the village)
+female_mob/women_mobility - both measure the same outcome - No. of places respondent can go alone/places respondent needs to go to
+daughter_edu_high - 1 if desire daughter to finish school or higher

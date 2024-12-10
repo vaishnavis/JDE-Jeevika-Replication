@@ -1,0 +1,13 @@
+Data Files are in /Data
+
+1. HH_Long_Panel_JDE.dta has baseline and follow-up observations in long format
+2. HH_Wide_Panel_JDE.dta has baseline and follow-up variables in wide format for each HH
+3. Loans_JDE.dta has loan level data. This includes only loans repayable in cash, with non-zero interest rates (and hence excludes loans with reported rates being 0 or missing).  It includes all such loans at baseline and follow-up, but only loans taken within the preceding one year are used in analyses, as described in the paper. 
+4. Vill_Lender_JDE.dta has village lender level interest rates for the graph (only used in Relief from Usury_Graphs.R)
+5. Vill_Long_Panel_JDE.dta has village variables in long format
+6. Vill_Wide_Panel_JDE.dta has village variables in wide format
+
+Do Files are in /Do Files
+1. Run the Relief  from Usury_Tables file which calls on all the other files.
+2. Code for individual tables correspond to table number in the paper.
+3. Romano Wolf p-values for multiple hypothesis testing are computed in RWpvals.do 
